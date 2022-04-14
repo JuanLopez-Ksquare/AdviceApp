@@ -9,8 +9,10 @@ const getAdviceAPI = async () => {
 const getAdvice = async () => {
   const res = await getAdviceAPI();
   let advice = res.slip.advice;
-  
-  document.getElementById("txtColor").innerText = '"'+advice+'"';
+
+  document.getElementById("txtColor").innerText = '"' + advice + '"';
+  document.getElementById("hrefTwit").href =
+    "https://twitter.com/intent/tweet?text=" + '"' + advice + '"';
 };
 
 getAdvice();
