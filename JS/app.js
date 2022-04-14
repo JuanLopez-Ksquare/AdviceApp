@@ -13,7 +13,6 @@ const getAdvice = async () => {
   document.getElementById("txtColor").innerText = '"' + advice + '"';
   document.getElementById("hrefTwit").href =
     "https://twitter.com/intent/tweet?text=" + '"' + advice + '"';
-    random_color();
 
           document.getElementById("btn-Another").disabled = true;
           setTimeout(() => {
