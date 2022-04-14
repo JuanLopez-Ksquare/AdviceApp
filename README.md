@@ -14,7 +14,7 @@ Braulio Ochoa
 | As a user when I click the element from US#4, I should see a new Advice in the app  |     |   x   |
 | As a user when I click the element from US#5, I should be able to share the advice using Twitter  |  x  |      |
 | The app should work and look fine in a 320px width viewport  |     |  x  |
-| The background color should change to a random color whenever a new advice is loaded  |  x  |  x  |
+| The background color should change to a random color whenever a new advice is loaded  |     |  x  |
 
 
 https://juanlopez-ksquare.github.io/AdviceApp/
